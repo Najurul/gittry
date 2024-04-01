@@ -1,0 +1,184 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: oldlace;
+}
+.navbar {
+  /* background-color: #1b4636; */
+  background-color: #2E8B57;
+  height: 80px;
+  z-index: 999;
+  position: sticky;
+  width: 100%;
+  top: 0;
+}
+.navbar-light .navbar-nav .nav-link {
+  color: white;
+  font-family: "PT Serif", serif;
+  /* font-size: 18px;*/
+}
+.navbar-brand {
+  font-family: "PT Serif", serif;
+  font-weight: 600;
+  /* font-size: 20px; */
+}
+.icon {
+  display: flex;
+  padding-right: 50px;
+}
+.usericon {
+  color: white;
+  right: 20%;
+  margin-right: 30px;
+}
+.homepage {
+  /* position:fixed ; */
+  background-image: url(../public/bg3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 89vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  background-attachment: fixed;
+  /* animation: myAnim 2s ease 0s 1 normal forwards; */
+}
+.hometext1 {
+  position: absolute;
+  bottom: 55%;
+  text-align: center;
+  font-size: 60px;
+  /* left: 15%; */
+  font-weight: 500;
+  font-family: "PT Serif", serif;
+}
+.hometext2 {
+  position: absolute;
+  padding: 50px;
+  bottom: 35%;
+  /* left: 8%; */
+  padding: 20px;
+  font-family: "PT Serif", serif;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 500;
+  width: 60%;
+}
+.homebutton {
+  position: absolute;
+  bottom: 30%;
+  /* left: 40%; */
+  text-align: center;
+  background-color: white;
+  border: none;
+  width: 9em;
+  height: 3em;
+  border-radius: 30em;
+  font-size: 15px;
+  font-weight: 600;
+}
+.cardgroup {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* background-color: oldlace; */
+  /* margin:0px; */
+}
+.card {
+  width: 350px;
+  height: 414px;
+  margin: 50px;
+  border-radius: 30px;
+  background-color: #2E8B57;
+  /* background-color: lightgray; */
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 50px -12px inset,
+    rgba(0, 0, 0, 0.3) 0px 18px 26px -18px inset;
+  overflow: hidden;
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+  transition: transform 0.3s ease-in-out;
+}
+
+.card:hover img {
+  transform: scale(1.1);
+}
+
+.plant {
+  padding-top: 55px;
+}
+.plant2 {
+  padding-top: 50px;
+}
+.plant3 {
+  padding-top: 80px;
+}
+.page2text {
+  font-family: "PT Serif", serif;
+  font-size: 40px;
+  text-align: center;
+  padding: 30px;
+  font-weight: 700;
+  /* background-color:oldlace ; */
+}
+.room {
+  width: 60vh;
+  /* padding: 20px; */
+}
+@keyframes myAnim {
+  0% {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.roomgroup{
+    display: flex;
+}
+.cardroom {
+  width: 240px;
+  height: 350px;
+  margin-right:10px;
+  margin-left: 50px;
+  margin-top: 30px;
+  padding-bottom: 50px;
+  border-radius: 30px;
+  background-color: lightgray;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 50px -12px inset,
+    rgba(0, 0, 0, 0.3) 0px 18px 26px -18px inset;
+  overflow: hidden;
+}
+.cardroom img {
+  width: 100%;
+  height: auto;
+  transition: transform 0.3s ease-in-out;
+}
+.cardver {
+  width: 550px;
+  height: 200px;
+  margin-top: 50px;
+  margin-left: 50px;
+  border-radius: 30px;
+  background-color: lightgray;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 50px -12px inset,
+    rgba(0, 0, 0, 0.3) 0px 18px 26px -18px inset;
+  overflow: hidden;
+}
+.roomver{
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease-in-out;
+}
